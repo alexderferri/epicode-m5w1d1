@@ -1,0 +1,28 @@
+.card {
+  width: 400px;
+  background-color: lightblue;
+  border-radius: 16px;
+  padding: 32px;
+}
+
+.card-avatar {
+  margin-right: 20px;
+  width: 48px;
+  border-radius: 100%;
+}
+
+.card-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-songlist li {
+  list-style: none;
+}
+.card-songlist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
