@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  -webkit-box-shadow: -6px 5px 27px -19px #000000;
+  box-shadow: -6px 5px 27px -19px #000000;
+  width: 400px;
+}
+
+.percentage {
+  font-size: 3rem;
+  font-weight: 600;
+}

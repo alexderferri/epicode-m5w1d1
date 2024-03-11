@@ -1,0 +1,36 @@
+.input-with-button-container {
+  width: 100%;
+  padding: 32px;
+  display: flex;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.text-input {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  flex-grow: 1;
+}
+
+.add-button {
+  background-color: #f9ca24;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-button:hover {
+  background-color: #f3b931;
+}
+
+.pokemons-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+  gap: 20px; /* Gap between grid items */
+}
