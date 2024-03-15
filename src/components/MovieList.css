@@ -1,0 +1,9 @@
+.movies-container {
+  display: grid;
+  grid-template-columns: repeat(
+    4,
+    1fr
+  ); /* Stiamo dicendo di mostrare 4 elementi per riga */
+  gap: 2rem; /* Questo è lo spazio che c'è tra ogni elemento */
+  padding: 0px 150px 150px 150px;
+}

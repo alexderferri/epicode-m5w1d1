@@ -1,0 +1,3 @@
+.card-summary {
+  overflow: scroll; /* In questo modo la trama della serie tv nella card, non risulta occupare troppo spazio */
+}
