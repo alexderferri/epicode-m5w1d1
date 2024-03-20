@@ -1,6 +1,4 @@
-.card-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
+body {
+  background-image: url("https://live.staticflickr.com/5620/30856110252_fdc6413817_b.jpg");
+  background-size: cover;
 }
